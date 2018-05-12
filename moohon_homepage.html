@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+<style>
+
+.contents{
+  background-color: white;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.header{
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 35px;
+  font-style: normal;
+  color : white;
+}
+.slideshow{
+  width: 900px;
+  height: 500px;
+  margin: 15px;
+  background-color: gray;
+}
+.left{
+  float: left;
+}
+.left1{
+  width: 400px;
+  height: 150px;
+  background-color: white;
+  margin-bottom: 20px;
+}
+.left2{
+  width: 400px;
+  height: 150px;
+  background-color: white;
+}
+.up{
+  background-color:  gray;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 0;
+  height:45px;
+  font-size: 20px;
+}
+p{
+  margin-top: 0;
+}
+.right{
+  background-color: white;
+  height:300px;
+  width:300px;
+  float:right;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<body background="sky.jpg">
+  <div class="header">
+    단국대학교 태권도부_무혼
+  </div>
+  <div class="up">
+    contents
+  </div>
+  <div class="contents">
+
+    <p style="text-align: center" class="photo_slide">
+      <img class="slideshow" src="무혼1.jpg">
+      <img class="slideshow" src="무혼2.jpg">
+      <img class="slideshow" src="무혼3.jpg">
+      <img class="slideshow" src="무혼4.jpg">
+    </p>
+    <div class="many">
+      <div class="left">
+        <div class="left1">
+
+        </div>
+        <div class="left2">
+
+        </div>
+      </div>
+      <div class="right">
+
+      </div>
+    </div>
+    <div class="foot">
+
+    </div>
+  </div>
+<script>
+var slideIndex=0;
+AutoSlides();
+
+function AutoSlides(){
+  var i;
+  var x =$('.slideshow');
+  for(i=0;i<x.length;i++){
+    $(x[i]).hide();
+  }
+  slideIndex++;
+  if(slideIndex > x.length){slideIndex = 1}
+  $(x[slideIndex-1]).show();
+  setTimeout(AutoSlides, 2000);
+}
+
+</script>
+</body>
+</html>
