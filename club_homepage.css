@@ -1,0 +1,109 @@
+@import url(moohon_homepage.css);
+
+.header{
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 35px;
+  font-style: normal;
+
+}
+.slideshow{
+  width: 900px;
+  height: 500px;
+  margin: 15px;
+  background-color: gray;
+}
+.left{
+  float: left;
+}
+.left1{
+  margin-left:320px;
+  width: 400px;
+  height: 150px;
+  background-color:hsl(0, 0%, 90%);
+  margin-bottom: 20px;
+}
+.left2{
+  margin-bottom: 40px;
+  margin-left: 320px;
+  width: 400px;
+  height: 150px;
+  background-color: hsl(0, 0%, 90%);
+}
+.up{
+  background-color:  gray;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 0;
+  height:45px;
+  font-size: 20px;
+}
+p{
+  margin-top: 0;
+}
+.right{
+  margin-bottom: 40px;
+  margin-right: 320px;
+  background-color: hsl(0, 0%, 90%);
+  height:320px;
+  width:415px;
+  float:right;
+}
+table{
+  text-align: center;
+  margin-left: 320px;
+  width:860px;
+  height:200px;
+}
+.phone_num{
+
+  text-align: center;
+  width:170px;
+  height:30px;
+  background-color: hsl(0, 0%, 90%);
+  float:right;
+  margin-top: 25px;
+  margin-right: 320px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.box{
+  position:absolute;
+  width:40px;
+  height:30px;
+  margin:0;
+  background-color: #F5DA81;
+}
+
+.tg  {
+  border-collapse:separate;
+  border-spacing:0;
+}
+.tg td{
+  font-family:Arial, sans-serif;
+  font-size:14px;
+  padding:10px 5px;
+  border-style:solid;
+  border-width:1px;
+  overflow:hidden;
+  word-break:normal;
+  border-color:black;}
+.tg th{
+  font-family:Arial, sans-serif;
+  font-size:14px;
+  font-weight:normal;
+  padding:10px 5px;
+  border-style:solid;
+  border-width:1px;
+  overflow:hidden;
+  word-break:normal;
+  border-color:black;
+  border-bottom: 1px solid #444444;
+}
+.tg .tg-uys7{
+  border-color:inherit;
+  text-align:center}
+  .many{
+    text-align:center;
+  }

@@ -1,77 +1,14 @@
+
+
 <!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
+  <link rel="stylesheet" href="./club_homepage.css">
   <title></title>
 </head>
-<style>
 
 
-.header{
-  margin-top: 50px;
-  margin-bottom: 20px;
-  text-align: center;
-  font-size: 35px;
-  font-style: normal;
-
-}
-.slideshow{
-  width: 900px;
-  height: 500px;
-  margin: 15px;
-  background-color: gray;
-}
-.left{
-  float: left;
-}
-.left1{
-  margin-left:320px;
-  width: 400px;
-  height: 150px;
-  background-color:hsl(0, 0%, 75%);
-  margin-bottom: 20px;
-}
-.left2{
-  margin-bottom: 40px;
-  margin-left: 320px;
-  width: 400px;
-  height: 150px;
-  background-color: hsl(0, 0%, 75%);
-}
-.up{
-  background-color:  gray;
-  margin-left: 200px;
-  margin-right: 200px;
-  margin-bottom: 0;
-  height:45px;
-  font-size: 20px;
-}
-p{
-  margin-top: 0;
-}
-.right{
-  margin-bottom: 40px;
-  margin-right: 320px;
-  background-color: hsl(0, 0%, 75%);
-  height:320px;
-  width:415px;
-  float:right;
-}
-table{
-  text-align: center;
-  margin-left: 320px;
-  width:860px;
-  height:200px;
-}
-.phone_num{
-  width:130px;
-  height:30px;
-  background-color: hsl(0, 0%, 75%);
-  float:right;
-  margin-top: 25px;
-  margin-right: 320px;
-}
-</style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <body >
   <div class="header">
@@ -83,42 +20,49 @@ table{
     <p style="text-align: center" class="photo_slide">
       <img class="slideshow" src="무혼1.jpg">
       <img class="slideshow" src="무혼2.jpg">
-      <img class="slideshow" src="무혼3.jpg">
       <img class="slideshow" src="무혼4.jpg">
     </p>
     <div class="many">
       <div class="left">
         <div class="left1">
-
+          이번년도 계획
         </div>
         <div class="left2">
-
+          동아리 위치
         </div>
       </div>
       <div class="right">
-
+          오늘의 운동
       </div>
     </div>
+    <table class="tg">
+    <tr>
+      <th class="tg-uys7">Position</th>
+      <th class="tg-uys7">Name</th>
+      <th class="tg-uys7">Major</th>
+    </tr>
+    <tr>
+      <td class="tg-uys7">회장</td>
+      <td class="tg-uys7">김승진</td>
+      <td class="tg-uys7">전자전기공학부</td>
+    </tr>
+    <tr>
+      <td class="tg-uys7">부회장</td>
+      <td class="tg-uys7">진소정</td>
+      <td class="tg-uys7">응용컴퓨터공학과</td>
+    </tr>
+    <tr>
+      <td class="tg-uys7">총무</td>
+      <td class="tg-uys7">최현솔</td>
+      <td class="tg-uys7">전자전기공학부</td>
+    </tr>
+  </table>
 
-    <table border='1'>
-      <tr>
-        <th>Position</th>
-        <th>Name</th>
-        <th>Major</th>
-      </tr>
-      <tr>
-        <td>회장</td>
-      </tr>
-      <tr>
-        <td>부회장</td>
-      </tr>
-      <tr>
-        <td>총무</td>
-      </tr>
-    </table>
-  <div class="phone_num">
-    010-xxxx-xxxx
-</div>
+    <div class="phone_num">
+      <div class="box"></div>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;010-xxxx-xxxx
+    </div>
+
   </div>
 <script>
 var slideIndex=0;
