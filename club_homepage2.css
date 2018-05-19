@@ -1,0 +1,23 @@
+@import url(moohon_homepage2.css);
+
+.header{
+  position:relative;
+
+}
+.background{
+  width:900px;
+  height:600px;
+}
+.in{
+  width:1000px;
+  background-color: white;
+}
+.unit{
+  font-size: 20px;
+  margin: 50px;
+  margin-left:150px;
+  float: left;
+}
+#intro{
+  margin-left: 250px;
+}
