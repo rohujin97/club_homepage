@@ -5,7 +5,7 @@
 
 }
 .background{
-  width:900px;
+  width:800px;
   height:600px;
 }
 .in{
@@ -15,9 +15,9 @@
 .unit{
   font-size: 20px;
   margin: 50px;
-  margin-left:150px;
+  margin-left:120px;
   float: left;
 }
 #intro{
-  margin-left: 250px;
+  margin-left: 300px;
 }
